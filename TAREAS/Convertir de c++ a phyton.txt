@@ -1,0 +1,111 @@
+1. Hola Mundo
+
+def main():
+    print("Hola Mundo")
+
+if __name__ == "__main__":
+    main()
+
+2. Imprimir un tipo de dato
+
+def main():
+    numero = 69
+    numero2 = 85.25
+    nombre = "Bernardo"
+    letra = 'b'
+    resultado = True
+
+    print("Mi nombre es:", nombre)
+
+if __name__ == "__main__":
+    main()
+
+3. Trabajando con Cadena de texto
+
+def main():
+    nombre = "Bernardo vargas"
+    apellido = nombre[8:15]
+    nombre = nombre[:6] + 'M' + nombre[7:]  # Reemplaza la letra 'v' por 'M'
+
+    print("Mi nombre es:", nombre, "mi apellido es:", apellido)
+
+if __name__ == "__main__":
+    main()
+
+4. Valor Constante
+
+def main():
+    nota = 65
+    print("Mi nota es:", nota)
+
+if __name__ == "__main__":
+    main()
+
+5. Solicitar Informacion
+
+def main():
+    nota = int(input("Introducir nota: "))
+    print("Mi nota es:", nota)
+
+    nombre = input("Introducir nombre: ")
+    print("Mi nombre es:", nombre)
+
+if __name__ == "__main__":
+    main()
+
+6. Arrays
+
+def main():
+    # Array ya lleno
+    nota = [23, 45, 76, 34]
+    print("Mi nombre es:", nota[2])
+
+    # Array vacío con asignación
+    nota = [0] * 10
+    nota[2] = 30
+    print("Mi nota es:", nota[2])
+
+if __name__ == "__main__":
+    main()
+
+7. Procedimientos
+
+def sumar(numero1, numero2):
+    resultado = numero1 + numero2
+    print(resultado)
+
+def saludar(nombre):
+    print("Hola mi nombre es:", nombre)
+
+def main():
+    numero1 = 10
+    numero2 = 20
+
+    sumar(numero1, numero2)
+
+    nombre = "Bernardo"
+    saludar(nombre)
+
+if __name__ == "__main__":
+    main()
+
+8. Funciones
+
+def sumar(numero1, numero2):
+    resultado = numero1 + numero2
+    return resultado
+
+def main():
+    numero1 = 10
+    numero2 = 20
+
+    suma = sumar(numero1, numero2)
+    suma2 = sumar(84, 2)
+    suma3 = sumar(numero1, 10)
+
+    print("La suma es:", suma)
+    print("La suma es:", suma2)
+    print("La suma es:", suma3)
+
+if __name__ == "__main__":
+    main()
