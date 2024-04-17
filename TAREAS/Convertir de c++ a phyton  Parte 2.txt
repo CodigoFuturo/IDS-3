@@ -1,0 +1,65 @@
+# Más condicional IF
+
+def main():
+    numero1 = 12
+    numero2 = 12
+
+    if numero1 == numero2:
+        print("Ambos son iguales")
+    else:
+        if numero2 > numero1:
+            print("El numero mayor es:", numero2)
+        else:
+            print("El numero mayor es:", numero1)
+
+if __name__ == "__main__":
+    main()
+
+# Ciclo SWITCH
+
+def main():
+    n1 = 98.34
+    n2 = 10.23
+    signo = input("Ingrese la operacion a realizar (+, -, *, /): ")
+
+    if signo == '+':
+        print("La suma es:", n1 + n2)
+    elif signo == '-':
+        print("La resta es:", n1 - n2)
+    elif signo == '*':
+        print("La multiplicacion es:", n1 * n2)
+    elif signo == '/':
+        print("La division es:", n1 / n2)
+    else:
+        print("Valor incorrecto")
+
+if __name__ == "__main__":
+    main()
+
+# Ciclo WHILE
+
+def main():
+    x = 0
+
+    while x < 10:
+        print("el contador es:", x)
+        x += 1
+
+if __name__ == "__main__":
+    main()
+
+# Bucle Anidado
+
+def main():
+    dato = [
+        [1, 2, 3, 4],
+        [5, 6, 7, 8],
+        [9, 10, 11, 12]
+    ]
+
+    for i in range(len(dato)):
+        for j in range(len(dato[i])):
+            print(dato[i][j])
+
+if __name__ == "__main__":
+    main()
