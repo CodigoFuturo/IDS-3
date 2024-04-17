@@ -1,4 +1,4 @@
-# Más condicional IF
+1 Más condicional IF
 
 def main():
     numero1 = 12
@@ -15,7 +15,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Ciclo SWITCH
+2 Ciclo SWITCH
 
 def main():
     n1 = 98.34
@@ -36,7 +36,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Ciclo WHILE
+3 Ciclo WHILE
 
 def main():
     x = 0
@@ -48,7 +48,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Bucle Anidado
+4 Bucle Anidado
 
 def main():
     dato = [
