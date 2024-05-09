@@ -25,10 +25,13 @@ Paso B: Gira el robot 90 grados a la derecha.
 Paso C: Mueve el robot dos casillas hacia adelante.
 Paso D: Gira el robot 90 grados a la izquierda.
 Si el robot comienza mirando hacia el norte y ejecutas la secuencia "ABCD" repetidamente, ¿hacia qué dirección estará mirando después de la cuarta repetición?
-# a) Norte #
+a) Norte
 b) Sur
 c) Este
 d) Oeste
+**Respuesta**
+----------------
+a) Norte
 
 
 2.- Dada una cadena de caracteres compuesta solo por las letras "A", "B", y "C", se considera "especial" si cumple con las siguientes reglas:
