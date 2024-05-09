@@ -29,9 +29,9 @@ a) Norte
 b) Sur
 c) Este
 d) Oeste
-**Respuesta**
+Respuesta
 ----------------
-a) Norte
+#0969DA a) Norte
 
 
 2.- Dada una cadena de caracteres compuesta solo por las letras "A", "B", y "C", se considera "especial" si cumple con las siguientes reglas:
