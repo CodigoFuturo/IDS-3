@@ -1,6 +1,6 @@
-TAREAS  
+TAREAS 
 
-1.	Programa C++ que lea el nombre y el sueldo de 6 empleados y m
+Programa C++ que lea el nombre y el sueldo de 6 empleados y m
 muestre el nombre y el sueldo del empleado que más gana. 
 Para hacerlo utilizaremos dos arrays: 
 
@@ -15,11 +15,7 @@ Finalmente mostrar el salario neto de la suma de los sueldos, e indicar a quien 
 
 RESPUESTA 
  
-
-
-
-
-1.- Imagina que tienes una secuencia de pasos que mueven un robot en una cuadrícula:
+1. Imagina que tienes una secuencia de pasos que mueven un robot en una cuadrícula:
 Paso A: Mueve el robot una casilla hacia adelante.
 Paso B: Gira el robot 90 grados a la derecha.
 Paso C: Mueve el robot dos casillas hacia adelante.
@@ -29,9 +25,8 @@ a) Norte
 b) Sur
 c) Este
 d) Oeste
-Respuesta
-----------------
-#0969DA a) Norte
+**Respuesta**
+**a) Norte**
 
 
 2.- Dada una cadena de caracteres compuesta solo por las letras "A", "B", y "C", se considera "especial" si cumple con las siguientes reglas:
