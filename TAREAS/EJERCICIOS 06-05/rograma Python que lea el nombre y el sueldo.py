@@ -15,10 +15,10 @@ Finalmente mostrar el salario neto de la suma de los sueldos, e indicar a quien 
 
 # CODIGO
 """
-# Universidad Salesia de Bolivia
-# Carrera: Ingenieria de sistema
-# Programacion 1
-# Bernardo Vargas Ruiz
+ Universidad Salesia de Bolivia
+ Carrera: Ingenieria de sistema
+ Programacion 1
+ Bernardo Vargas Ruiz
 """
 nombres = []
 sueldos = []
