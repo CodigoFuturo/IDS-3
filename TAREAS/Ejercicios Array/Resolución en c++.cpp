@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
     int N;
-    cout << "Ingrese el número de personas: ";
+    cout << "Ingrese el numero de personas: ";
     cin >> N;
 
     vector<double> alturas(N);
@@ -93,7 +93,7 @@ int main() {
     int numeros[10];
     int positivos = 0, negativos = 0, ceros = 0;
 
-    cout << "Ingrese 10 nimeros enteros separados por espacio: ";
+    cout << "Ingrese 10 numeros enteros separados por espacio: ";
     for (int i = 0; i < 10; ++i) {
         cin >> numeros[i];
         if (numeros[i] > 0) {
@@ -106,7 +106,7 @@ int main() {
     }
 
     cout << "Cantidad de numeros positivos: " << positivos << endl;
-    cout << "Cantidad de números negativos: " << negativos << endl;
+    cout << "Cantidad de numeros negativos: " << negativos << endl;
     cout << "Cantidad de ceros: " << ceros << endl;
 
     return 0;
